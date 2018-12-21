@@ -30,5 +30,12 @@ public class SampleController {
        map.put("age", "18");
        return map;
     }
+    @RequestMapping("/test2")
+    Map test1(){
+        Map map = new HashMap();
+        map.put("name", "zhangsan");
+        map.put("age", "18");
+        return map;
+    }
 
 }
