@@ -17,12 +17,15 @@ public class OtherHttpController {
 
     Map params =new HashMap();
 
+<<<<<<< HEAD
     @RequestMapping("hello")
     public Object hello(){
 
         return "hello";
     }
 
+=======
+>>>>>>> 9aa741a4cc92bf05f3322e439d8b19ffffd9b289
     @PostMapping("v1/login")
     public Object login(String id,String pwd){
         params.clear();
